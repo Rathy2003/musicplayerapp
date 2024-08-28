@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "628000083422",
+    "project_id": "musicproject-41d13",
+    "storage_bucket": "musicproject-41d13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628000083422:android:3939c4b782a7f5a4b4e14f",
+        "android_client_info": {
+          "package_name": "com.rathysoftware.musicplaylist_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFbPgj6qEh6y859FSDYUHbEtzOyHnD5Ns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
