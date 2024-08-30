@@ -31,8 +31,11 @@ class HomeScreenController extends GetxController{
   }
 
   Future<void> _configureAudioSession() async {
-    final session = await AudioSession.instance;
-    await session.configure(AudioSessionConfiguration.music());
+    if (Platform.isIOS) {
+      final session = await AudioSession.instance;
+      await session.configure(const AudioSessionConfiguration.music());
+      await session.setActive(true);
+    }
   }
 
   void onGetLocalData() async{
