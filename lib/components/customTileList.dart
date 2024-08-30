@@ -44,15 +44,16 @@ Widget customTileList({required String title,required String artist,required Str
               Text(title,style:
                 const TextStyle(
                     fontSize: 20,
-                    fontWeight: FontWeight.w600
+                    fontWeight: FontWeight.w600,
+                    fontFamily: "NotoSans"
                 ),
                 overflow: TextOverflow.fade,
                 maxLines: 1,
                 softWrap: false,
               ),
               Text(artist,style: const TextStyle(
-                fontSize: 17,
-
+                  fontSize: 17,
+                  fontFamily: "NotoSans"
               ),
                 overflow: TextOverflow.fade,
                 maxLines: 1,
